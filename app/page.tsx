@@ -127,15 +127,15 @@ export default function LandingPage() {
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Import par photo ou PDF
+                  <span>Import par photo ou PDF</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Extraction automatique des données
+                  <span>Extraction automatique des données</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Tableau comparatif détaillé
+                  <span>Tableau comparatif détaillé</span>
                 </li>
               </ul>
             </div>
@@ -152,15 +152,15 @@ export default function LandingPage() {
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Dashboard financier clair
+                  <span>Dashboard financier clair</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Prévisions et alertes
+                  <span>Prévisions et alertes</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Historique des paiements
+                  <span>Historique des paiements</span>
                 </li>
               </ul>
             </div>
@@ -177,15 +177,15 @@ export default function LandingPage() {
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Gantt interactif
+                  <span>Gantt interactif</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Notifications automatiques
+                  <span>Notifications automatiques</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-                  Suivi photo du chantier
+                  <span>Suivi photo du chantier</span>
                 </li>
               </ul>
             </div>
