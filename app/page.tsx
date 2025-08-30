@@ -448,9 +448,9 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold text-white mb-4">Légal</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link href="#" className="hover:text-white">Conditions d'utilisation</Link></li>
-                <li><Link href="#" className="hover:text-white">Politique de confidentialité</Link></li>
-                <li><Link href="#" className="hover:text-white">RGPD</Link></li>
+                <li><Link href="/terms" className="hover:text-white">Conditions d'utilisation</Link></li>
+                <li><Link href="/privacy" className="hover:text-white">Politique de confidentialité</Link></li>
+                <li><Link href="/privacy" className="hover:text-white">RGPD</Link></li>
               </ul>
             </div>
           </div>
