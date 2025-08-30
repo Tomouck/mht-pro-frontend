@@ -72,7 +72,7 @@ export default function LandingPage() {
               Voir une démo
             </Button>
           </div>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-sm text-gray-700">
             ✨ Gratuit pendant 30 jours • Sans carte bancaire • 5 minutes pour commencer
           </p>
         </div>
@@ -291,7 +291,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Sophie L.</div>
-                  <div className="text-sm text-gray-600">Propriétaire</div>
+                  <div className="text-sm text-gray-700">Propriétaire</div>
                 </div>
               </div>
             </div>
@@ -310,7 +310,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Marc D.</div>
-                  <div className="text-sm text-gray-600">Architecte</div>
+                  <div className="text-sm text-gray-700">Architecte</div>
                 </div>
               </div>
             </div>
@@ -329,7 +329,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Thomas R.</div>
-                  <div className="text-sm text-gray-600">Investisseur</div>
+                  <div className="text-sm text-gray-700">Investisseur</div>
                 </div>
               </div>
             </div>
