@@ -23,19 +23,19 @@ export default function LandingPage() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <Building2 className="h-8 w-8 text-blue-600" />
-              <span className="font-bold text-xl">MyHomeTracker Pro</span>
+              <span className="font-bold text-xl text-gray-900">MyHomeTracker Pro</span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
-              <Link href="#features" className="text-gray-700 hover:text-blue-600">
+              <Link href="#features" className="text-gray-800 hover:text-blue-600 font-medium">
                 Fonctionnalités
               </Link>
-              <Link href="#benefits" className="text-gray-700 hover:text-blue-600">
+              <Link href="#benefits" className="text-gray-800 hover:text-blue-600 font-medium">
                 Avantages
               </Link>
-              <Link href="#testimonials" className="text-gray-700 hover:text-blue-600">
+              <Link href="#testimonials" className="text-gray-800 hover:text-blue-600 font-medium">
                 Témoignages
               </Link>
-              <Link href="#faq" className="text-gray-700 hover:text-blue-600">
+              <Link href="#faq" className="text-gray-800 hover:text-blue-600 font-medium">
                 FAQ
               </Link>
             </nav>
@@ -58,7 +58,7 @@ export default function LandingPage() {
             Gérez vos projets de construction
             <span className="text-blue-600"> en toute sérénité</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
             La plateforme tout-en-un pour comparer vos devis, suivre vos chantiers 
             et maîtriser votre budget. Fini les mauvaises surprises !
           </p>
@@ -72,7 +72,7 @@ export default function LandingPage() {
               Voir une démo
             </Button>
           </div>
-          <p className="mt-4 text-sm text-gray-500">
+          <p className="mt-4 text-sm text-gray-600">
             ✨ Gratuit pendant 30 jours • Sans carte bancaire • 5 minutes pour commencer
           </p>
         </div>
@@ -84,19 +84,19 @@ export default function LandingPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-3xl font-bold text-blue-600">10K+</div>
-              <div className="text-gray-600">Projets gérés</div>
+              <div className="text-gray-700">Projets gérés</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-blue-600">€2.5M</div>
-              <div className="text-gray-600">Économies réalisées</div>
+              <div className="text-gray-700">Économies réalisées</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-blue-600">98%</div>
-              <div className="text-gray-600">Clients satisfaits</div>
+              <div className="text-gray-700">Clients satisfaits</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-blue-600">-30%</div>
-              <div className="text-gray-600">Temps gagné</div>
+              <div className="text-gray-700">Temps gagné</div>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function LandingPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Tout ce dont vous avez besoin
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
               Des outils puissants et intuitifs pour gérer votre projet de A à Z
             </p>
           </div>
@@ -120,11 +120,11 @@ export default function LandingPage() {
                 <FileText className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Comparateur de devis intelligent</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 Importez vos devis PDF et comparez-les automatiquement. 
                 Notre IA détecte les différences et vous alerte sur les postes manquants.
               </p>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                   Import par photo ou PDF
@@ -145,11 +145,11 @@ export default function LandingPage() {
                 <Banknote className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Suivi budgétaire en temps réel</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 Gardez le contrôle de vos dépenses avec des alertes automatiques 
                 en cas de dépassement. Anticipez les coûts cachés.
               </p>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                   Dashboard financier clair
@@ -170,11 +170,11 @@ export default function LandingPage() {
                 <Calendar className="w-6 h-6 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Planning et coordination</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 Organisez les interventions, suivez l'avancement et communiquez 
                 efficacement avec tous les intervenants.
               </p>
-              <ul className="space-y-2 text-sm text-gray-600">
+              <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start">
                   <CheckCircle className="w-4 h-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
                   Gantt interactif
@@ -207,7 +207,7 @@ export default function LandingPage() {
               <Shield className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">100% Sécurisé</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   Vos données sont chiffrées et hébergées en Europe. 
                   Conformité RGPD garantie.
                 </p>
@@ -218,7 +218,7 @@ export default function LandingPage() {
               <Clock className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">Gain de temps</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   Économisez jusqu'à 10h par semaine sur la gestion administrative.
                 </p>
               </div>
@@ -228,7 +228,7 @@ export default function LandingPage() {
               <BarChart3 className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">Économies garanties</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   En moyenne, nos utilisateurs économisent 15% sur leur budget travaux.
                 </p>
               </div>
@@ -238,7 +238,7 @@ export default function LandingPage() {
               <Users className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">Support réactif</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   Une équipe d'experts disponible 7j/7 pour vous accompagner.
                 </p>
               </div>
@@ -248,7 +248,7 @@ export default function LandingPage() {
               <Building2 className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">Multi-projets</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   Gérez plusieurs chantiers simultanément depuis une interface unique.
                 </p>
               </div>
@@ -258,7 +258,7 @@ export default function LandingPage() {
               <Star className="w-8 h-8 text-blue-600 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold mb-2">Simple et intuitif</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-700 text-sm">
                   Aucune formation nécessaire. Prise en main en moins de 5 minutes.
                 </p>
               </div>
@@ -283,7 +283,7 @@ export default function LandingPage() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 "MyHomeTracker m'a permis d'économiser 8000€ sur ma rénovation. 
                 J'ai pu comparer facilement les devis et négocier avec les artisans."
               </p>
@@ -291,7 +291,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Sophie L.</div>
-                  <div className="text-sm text-gray-500">Propriétaire</div>
+                  <div className="text-sm text-gray-600">Propriétaire</div>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ export default function LandingPage() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 "En tant qu'architecte, je recommande MyHomeTracker à tous mes clients. 
                 C'est un gain de temps énorme pour le suivi de chantier."
               </p>
@@ -310,7 +310,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Marc D.</div>
-                  <div className="text-sm text-gray-500">Architecte</div>
+                  <div className="text-sm text-gray-600">Architecte</div>
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@ export default function LandingPage() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 "La fonctionnalité de comparaison de devis est exceptionnelle. 
                 J'ai immédiatement vu qu'il manquait des postes importants."
               </p>
@@ -329,7 +329,7 @@ export default function LandingPage() {
                 <div className="w-10 h-10 bg-gray-200 rounded-full"></div>
                 <div>
                   <div className="font-semibold">Thomas R.</div>
-                  <div className="text-sm text-gray-500">Investisseur</div>
+                  <div className="text-sm text-gray-600">Investisseur</div>
                 </div>
               </div>
             </div>
@@ -349,7 +349,7 @@ export default function LandingPage() {
           <div className="space-y-4">
             <details className="bg-white rounded-lg p-6 cursor-pointer">
               <summary className="font-semibold">Est-ce vraiment gratuit ?</summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-700">
                 Oui ! Vous bénéficiez de 30 jours d'essai gratuit avec toutes les fonctionnalités. 
                 Aucune carte bancaire n'est requise pour commencer.
               </p>
@@ -357,7 +357,7 @@ export default function LandingPage() {
 
             <details className="bg-white rounded-lg p-6 cursor-pointer">
               <summary className="font-semibold">Comment fonctionne l'import de devis ?</summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-700">
                 Prenez simplement une photo ou uploadez un PDF de vos devis. 
                 Notre IA extrait automatiquement toutes les informations importantes 
                 et les organise dans un tableau comparatif.
@@ -366,7 +366,7 @@ export default function LandingPage() {
 
             <details className="bg-white rounded-lg p-6 cursor-pointer">
               <summary className="font-semibold">Mes données sont-elles sécurisées ?</summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-700">
                 Absolument. Nous utilisons un chiffrement de niveau bancaire et 
                 vos données sont hébergées en Europe. Nous sommes conformes au RGPD 
                 et ne partageons jamais vos informations.
@@ -375,7 +375,7 @@ export default function LandingPage() {
 
             <details className="bg-white rounded-lg p-6 cursor-pointer">
               <summary className="font-semibold">Puis-je gérer plusieurs projets ?</summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-700">
                 Oui, vous pouvez gérer autant de projets que vous le souhaitez. 
                 Chaque projet dispose de son propre espace avec ses devis, 
                 planning et documents.
@@ -384,7 +384,7 @@ export default function LandingPage() {
 
             <details className="bg-white rounded-lg p-6 cursor-pointer">
               <summary className="font-semibold">Y a-t-il une application mobile ?</summary>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-700">
                 MyHomeTracker Pro fonctionne parfaitement sur mobile via votre navigateur. 
                 Une application native est prévue pour 2025.
               </p>
@@ -414,7 +414,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-12 px-4">
+      <footer className="bg-gray-900 text-gray-300 py-12 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
